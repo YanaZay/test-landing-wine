@@ -1,3 +1,80 @@
-.gavno {
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    position: absolute;
+    /* left: 0;
+    top: 0;
+    z-index: 1000; */
+}
+.header__inner {
+    position: relative;
+}
+.contacts {
     display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+nav:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+nav:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    top: 100%;
+}
+.nav__link {
+    padding: 15px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url(img/intro.jpg) center no-repeat;
+    background-size: cover;
+}
+.intro__inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.intro__btn {
+    padding: 15px 30px;
+    background-color: #998431;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
