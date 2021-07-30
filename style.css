@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
     color: #fff;
 }
 * {
@@ -66,15 +67,27 @@ nav:after {
 }
 .intro__inner {
     width: 100%;
+    max-width: 1110px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 700px;
 }
 .intro__btn {
+    margin: 15px;
     padding: 15px 30px;
     background-color: #998431;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/*About__wine*/
+
+.about__wine {
+    width: 100%;
+    height: 100vh;
+    background-color: #282828;
 }
