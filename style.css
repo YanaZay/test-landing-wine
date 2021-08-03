@@ -6,13 +6,16 @@ body {
     letter-spacing: 0.1rem;
     color: #fff;
 }
+
 * {
     box-sizing: border-box;
 }
+
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 100%;
     max-width: 1110px;
@@ -23,23 +26,23 @@ h1,h2,h3,h4,h5,h6 {
 .header {
     width: 100%;
     position: absolute;
-    /* left: 0;
-    top: 0;
-    z-index: 1000; */
 }
+
 .header__inner {
     position: relative;
 }
+
 .contacts {
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
 }
+
 .nav__header {
     display: flex;
     justify-content: space-around;
-
 }
+
 .nav__header:before {
     position: absolute;
     display: block;
@@ -48,6 +51,7 @@ h1,h2,h3,h4,h5,h6 {
     height: 1px;
     background-color: #fff;
 }
+
 .nav__header:after {
     position: absolute;
     display: block;
@@ -57,6 +61,7 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #fff;
     top: 100%;
 }
+
 .nav__link {
     width: 100%;
     padding: 15px 0;
@@ -81,6 +86,7 @@ h1,h2,h3,h4,h5,h6 {
     background: url(img/intro.jpg) center no-repeat;
     background-size: cover;
 }
+
 .intro__inner {
     width: 100%;
     max-width: 1110px;
@@ -91,6 +97,7 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     top: 75%;
 }
+
 .intro__btn {
     margin: 15px;
     padding: 15px 30px;
@@ -121,7 +128,6 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 auto;
     text-align: center;
     padding: 80px 0;
-
 }
 
 .history__new {
@@ -151,7 +157,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .about__wine__img {
-    /*position: absolute;*/
     padding: 50px;
 }
 
@@ -182,6 +187,7 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #998431;
     top: 60px;
 }
+
 .history__section:after {
     position: absolute;
     display: block;
@@ -221,13 +227,13 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 21px;
     font-weight: 400;
 }
+
 .history__content__table {
     padding: 30px 0;
     display: grid;
     grid-template-columns: 20% 80%;
     align-items: center;
     grid-gap: 1px;
-
     color: #282828;
     font-size: 14px;
 }
@@ -238,7 +244,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .table__name {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-size:  14px;
     line-height: 5px;
     padding-bottom: 20px;
@@ -253,6 +259,7 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: none;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
 }
 
 .itemOne {
@@ -321,7 +328,6 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #282828;
     text-align: center;
     padding: 10px 10px;
-    /*position: absolute;*/
 }
 
 .registration__section {
@@ -354,13 +360,13 @@ h1,h2,h3,h4,h5,h6 {
     width: 540px;
 }
 
-input[value="Имя"], [value="Телефон"], [value="Бутик на Невском 103"] {
+input[type='text'] {
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-weight: 500;
     line-height: 20px;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .form__text {
@@ -383,6 +389,7 @@ input[value="Имя"], [value="Телефон"], [value="Бутик на Нев�
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 /*Footer*/
@@ -407,6 +414,7 @@ input[value="Имя"], [value="Телефон"], [value="Бутик на Нев�
 }
 
 .footer__contacts {
+    font-size: 14px;
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #ffffff;
@@ -419,7 +427,7 @@ input[value="Имя"], [value="Телефон"], [value="Бутик на Нев�
     color: #ffffff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     border-right: 1px solid #ffffff;
 }
 
